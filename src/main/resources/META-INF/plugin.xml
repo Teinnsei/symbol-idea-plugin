@@ -11,7 +11,11 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Symbol.xml"/>
-        <liveTemplateContext implementation="io.galagutskiy.idea.plugin.symbol.SymbolTemplateContextType"/>
+        <liveTemplateContext implementation="io.teinnsei.idea.plugin.symbol.SymbolTemplate"/>
+        <defaultLiveTemplates file="/liveTemplates/SymbolMath.xml"/>
+        <liveTemplateContext implementation="io.teinnsei.idea.plugin.symbol.SymbolMathTemplate"/>
+        <defaultLiveTemplates file="/liveTemplates/SymbolEmoji.xml"/>
+        <liveTemplateContext implementation="io.teinnsei.idea.plugin.symbol.SymbolEmojiTemplate"/>
     </extensions>
 
     <actions>
