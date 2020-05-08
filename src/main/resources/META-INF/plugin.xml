@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>io.galagutskiy.symbol-idea-plugin</id>
+    <name>Spec and Math symbols</name>
+    <vendor email="alexander.galagutskiy@gmail.com" url="https://github.com/Teinnsei/">Alexander Galagutskiy</vendor>
+
+    <description><![CDATA[
+    Plugin that just include spec and math symbol for autocomplete
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <defaultLiveTemplates file="/liveTemplates/Symbol.xml"/>
+        <liveTemplateContext implementation="io.galagutskiy.idea.plugin.symbol.SymbolTemplateContextType"/>
+    </extensions>
+
+    <actions>
+    </actions>
+
+</idea-plugin>
