@@ -1,3 +1,3 @@
-package io.teinnsei.idea.plugin.symbol
+package io.cronenbergworld.idea.plugin.symbol
 
 class SymbolMathTemplate : SymbolTemplateContextType("SYMBOL_MATH", "SymbolMath")

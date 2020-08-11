@@ -1,24 +1,21 @@
 <idea-plugin>
     <id>io.galagutskiy.symbol-idea-plugin</id>
-    <name>Spec and Math symbols</name>
-    <vendor email="alexander.galagutskiy@gmail.com" url="https://github.com/Teinnsei/">Alexander Galagutskiy</vendor>
+    <name>Spec and Math Symbols</name>
+    <vendor email="support@cronenbergworld.io" url="http://www.cronenbergworld.io">Cronenberg World</vendor>
 
     <description><![CDATA[
-    Plugin that just include spec and math symbol for autocomplete
+    Spec and Math symbol for autocomplete
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Symbol.xml"/>
-        <liveTemplateContext implementation="io.teinnsei.idea.plugin.symbol.SymbolTemplate"/>
+        <liveTemplateContext implementation="io.cronenbergworld.idea.plugin.symbol.SymbolTemplate"/>
         <defaultLiveTemplates file="/liveTemplates/SymbolMath.xml"/>
-        <liveTemplateContext implementation="io.teinnsei.idea.plugin.symbol.SymbolMathTemplate"/>
+        <liveTemplateContext implementation="io.cronenbergworld.idea.plugin.symbol.SymbolMathTemplate"/>
         <defaultLiveTemplates file="/liveTemplates/SymbolEmoji.xml"/>
-        <liveTemplateContext implementation="io.teinnsei.idea.plugin.symbol.SymbolEmojiTemplate"/>
+        <liveTemplateContext implementation="io.cronenbergworld.idea.plugin.symbol.SymbolEmojiTemplate"/>
     </extensions>
-
-    <actions>
-    </actions>
 
 </idea-plugin>

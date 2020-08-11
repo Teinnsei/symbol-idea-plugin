@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'io.galagutskiy'
-version '1.1.0'
+version '1.1.1'
 
 repositories {
     mavenCentral()
@@ -14,12 +14,13 @@ repositories {
 dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib'
     testCompile group: 'junit', name: 'junit', version: '4.12'
-
-    compile group: 'org.jsoup', name: 'jsoup', version: '1.13.1'
 }
 
 intellij {
-    version '2020.1.1'
+    version '2020.2'
+    localPath ideaSdkPath
+    pluginName 'Spec and Math symbols'
+    sandboxDirectory = project.rootDir.canonicalPath + "/.sandbox"
 }
 
 patchPluginXml {
