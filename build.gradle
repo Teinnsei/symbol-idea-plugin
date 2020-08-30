@@ -17,8 +17,9 @@ dependencies {
 }
 
 intellij {
+    type 'IU'
     version '2020.2'
-    localPath ideaSdkPath
+    plugins 'com.intellij.database','java'
     pluginName 'Spec and Math symbols'
     sandboxDirectory = project.rootDir.canonicalPath + "/.sandbox"
 }
