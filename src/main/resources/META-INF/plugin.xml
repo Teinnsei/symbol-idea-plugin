@@ -18,6 +18,9 @@
         <liveTemplateContext implementation="io.cronenbergworld.idea.plugin.symbol.SymbolEmojiTemplate"/>
         <defaultLiveTemplates file="/liveTemplates/LoremIpsum.xml"/>
         <liveTemplateContext implementation="io.cronenbergworld.idea.plugin.symbol.LoremIpsumTemplate"/>
+        <liveTemplateMacro implementation="io.cronenbergworld.idea.plugin.symbol.FakeMacro"/>
+        <defaultLiveTemplates file="/liveTemplates/Fake.xml"/>
+        <liveTemplateContext implementation="io.cronenbergworld.idea.plugin.symbol.FakeTemplate"/>
     </extensions>
 
 </idea-plugin>

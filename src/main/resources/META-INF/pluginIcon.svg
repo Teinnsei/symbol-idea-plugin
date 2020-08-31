@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="256" y1="488.5923" x2="256" y2="27.4094" gradientTransform="matrix(1 0 0 -1 0 514.0009)">
-	<stop  offset="0" style="stop-color:#2AF598"/>
-	<stop  offset="1" style="stop-color:#009EFD"/>
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px"
+     y="0px"
+     viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="256" y1="488.5923" x2="256" y2="27.4094"
+                gradientTransform="matrix(1 0 0 -1 0 514.0009)">
+	<stop offset="0" style="stop-color:#2AF598"/>
+    <stop offset="1" style="stop-color:#009EFD"/>
 </linearGradient>
-<path style="fill:url(#SVGID_1_);" d="M472,331.504c0,30.479-13.361,33.793-18.112,33.998c-3.169-1.899-12.353-12.4-22.982-42.685
+    <path style="fill:url(#SVGID_1_);" d="M472,331.504c0,30.479-13.361,33.793-18.112,33.998c-3.169-1.899-12.353-12.4-22.982-42.685
 	c-5.552-15.818-9.453-31.139-11.24-38.656c33.202-114.074,27.569-234.521,27.31-239.667l-0.96-18.99L325.28,25.508l1.79,21.648
 	c0.048,0.588,1.099,13.967,1.734,35.503c-5.002-6.954-10.341-13.225-16.036-18.83c-26.206-25.787-59.818-38.324-102.757-38.326l0,0
 	c-0.298-0.001-0.673-0.017-1.12-0.031c-1.594-0.05-3.174-0.062-4.744-0.046c-11.063-0.115-31.96,0.165-56.464,5.749
@@ -26,34 +28,34 @@
 	c-9.518,16.054-20.087,29.622-31.871,40.797c28.988-48.56,47.207-118.427,54.286-208.464c4.388-55.813,3.28-105.146,2.029-132.134
 	h39.185c0.197,38.431-2.398,128.845-27.571,212.219l-1.482,4.911l1.063,5.019c0.233,1.1,5.824,27.237,15.673,53.804
 	c10.164,27.417,27.187,63.843,57.634,64.047c2.62,0.049,10.233-0.151,19.259-3.477L472,412.504L472,412.504z"/>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
-<g>
+    <g>
 </g>
 </svg>
