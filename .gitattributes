@@ -1,0 +1,4 @@
+docs/3.png filter=lfs diff=lfs merge=lfs -text
+docs/logo.svg filter=lfs diff=lfs merge=lfs -text
+docs/1.png filter=lfs diff=lfs merge=lfs -text
+docs/2.png filter=lfs diff=lfs merge=lfs -text
