@@ -1,5 +1,5 @@
 name := "symbol-idea-plugin"
-version := "1.3.3"
+version := "1.3.4"
 scalaVersion := "3.0.0"
 scalacOptions := Seq("-new-syntax", "-indent", "-explain")
 resolvers += Resolver.url("jetbrains-sbt", url(s"https://dl.bintray.com/jetbrains/sbt-plugins"))(Resolver.ivyStylePatterns)
