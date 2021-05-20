@@ -2,10 +2,10 @@
     <id>io.galagutskiy.symbol-idea-plugin</id>
     <name>Spec and Math Symbols</name>
     <vendor email="support@cronenbergworld.io" url="http://www.cronenbergworld.io">Cronenberg World</vendor>
-
-    <description><![CDATA[
-    Spec and Math symbol for autocomplete
-    ]]></description>
+    <description>_</description>
+    <change-notes>_</change-notes>
+    <version>_</version>
+    <idea-version />
 
     <depends>com.intellij.modules.platform</depends>
 
