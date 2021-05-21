@@ -71,9 +71,9 @@
             <option name="SYMBOL" value="true"/>
         </context>
     </template>
-    <template name="vartheta"
+    <template name="Theta"
               value="ϑ"
-              description="vartheta"
+              description="Theta"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -161,9 +161,9 @@
             <option name="SYMBOL" value="true"/>
         </context>
     </template>
-    <template name="varsigma"
+    <template name="Sigma"
               value="ς"
-              description="varsigma"
+              description="Sigma"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -197,9 +197,9 @@
             <option name="SYMBOL" value="true"/>
         </context>
     </template>
-    <template name="varphi"
+    <template name="Phi"
               value="ϕ"
-              description="varphi"
+              description="Phi"
               toReformat="false"
               toShortenFQNames="false">
         <context>
