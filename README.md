@@ -1,4 +1,4 @@
-# Spec and Math symbols ![Logo](docs/logo.svg)
+# Spec & Math symbols ![Logo](docs/logo.svg)
 
 
 [![Build](https://github.com/cronenberg-world/symbol-idea-plugin/workflows/Scala%20CI/badge.svg)](https://github.com/Cronenberg-World/symbol-idea-plugin/actions)
