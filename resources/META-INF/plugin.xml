@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>io.cronenbergworld.symbol-idea-plugin</id>
-    <name>Spec & Math symbols</name>
+    <name>Spec &amp; Math symbols</name>
     <vendor email="support@cronenbergworld.io" url="http://www.cronenbergworld.io">Cronenberg World</vendor>
     <description>_</description>
     <change-notes>_</change-notes>
