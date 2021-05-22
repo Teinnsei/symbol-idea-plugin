@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>io.cronenbergworld.symbol-idea-plugin</id>
+    <id>io.galagutskiy.symbol-idea-plugin</id>
     <name>Spec &amp; Math symbols</name>
     <vendor email="support@cronenbergworld.io" url="http://www.cronenbergworld.io">Cronenberg World</vendor>
     <description>_</description>
