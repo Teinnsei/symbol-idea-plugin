@@ -1,4 +1,4 @@
-package io.cronenbergworld.idea.plugin.symbol
+package com.github.teinnsei.plugin.symbol
 
 import com.github.javafaker.Faker
 import com.intellij.codeInsight.template.*
