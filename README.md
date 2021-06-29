@@ -12,5 +12,4 @@
 ## Usage
 
 ![usage1](docs/1.png)
-![usage1](docs/2.png)
 ![usage1](docs/3.png)
