@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>io.galagutskiy.symbol-idea-plugin</id>
     <name><![CDATA[Spec & Math Symbols]]></name>
-    <vendor email="alexander.galagutskiy@gmail.com" url="https://github.com/Teinnsei">Alexander Galagutskiy</vendor>
+    <vendor url="https://github.com/Teinnsei">Oleksandr Halahutskyi</vendor>
     <description>_</description>
     <change-notes>_</change-notes>
     <version>_</version>
