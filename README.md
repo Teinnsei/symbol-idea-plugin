@@ -13,3 +13,10 @@
 
 ![usage1](docs/1.png)
 ![usage1](docs/3.png)
+
+
+## Build artifact
+
+```bash
+sbt packageArtifactZip
+```

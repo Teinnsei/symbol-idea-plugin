@@ -1,21 +1,17 @@
 name := "symbol-idea-plugin"
-version := "1.6.0"
-scalaVersion := "3.0.0"
-scalacOptions := Seq("-new-syntax", "-indent", "-explain")
-resolvers += Resolver.url("jetbrains-sbt", url(s"https://dl.bintray.com/jetbrains/sbt-plugins"))(Resolver.ivyStylePatterns)
+version := "1.7.0"
+scalaVersion := "3.1.3"
+scalacOptions := Seq("-new-syntax")
 idePackagePrefix := Some("com.github.teinnsei.plugin.symbol")
 intellijPluginName := "Spec &amp; Math symbols"
-intellijBuild := "221.5080.210"
+intellijBuild := "222.3345.118"
 intellijPlatform := IntelliJPlatform.IdeaCommunity
-libraryDependencies ++= Seq(
-  "com.github.javafaker" % "javafaker"     % "1.0.2",
-  "org.scala-lang"       % "scala-library" % "2.13.6"
-)
-
+libraryDependencies += "com.github.javafaker" % "javafaker" % "1.0.2"
+libraryDependencies += "org.scala-lang" % "scala-library" % "2.13.8"
 patchPluginXml := pluginXmlOptions { xml =>
   xml.version = version.value
-  xml.sinceBuild = "221"
-  xml.untilBuild = "221.*"
+  xml.sinceBuild = "222"
+  xml.untilBuild = "222.*"
   xml.pluginDescription = IO.read(baseDirectory.value / "notes" / "pluginDescription.html")
   xml.changeNotes = IO.read(baseDirectory.value / "notes" / "pluginChanges.html")
 }
