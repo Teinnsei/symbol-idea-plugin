@@ -2303,4 +2303,85 @@
             <option name="SYMBOL_MATH" value="true"/>
         </context>
     </template>
+    <template name="symbolNatural"
+              value="ℕ"
+              description="ℕ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolInteger"
+              value="ℤ"
+              description="ℤ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRational"
+              value="ℚ"
+              description="ℚ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolReal"
+              value="ℝ"
+              description="ℝ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolComplex"
+              value="ℂ"
+              description="ℂ"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLeftCeiling"
+              value="⌈"
+              description="⌈"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightCeiling"
+              value="⌉"
+              description="⌉"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolLeftFloor"
+              value="⌊"
+              description="⌊"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
+    <template name="symbolRightFloor"
+              value="⌋"
+              description="⌋"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="SYMBOL_MATH" value="true"/>
+        </context>
+    </template>
 </templateSet>

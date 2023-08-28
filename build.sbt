@@ -1,5 +1,5 @@
 name := "symbol-idea-plugin"
-version := "1.10.0"
+version := "1.11.0"
 scalaVersion := "3.1.3"
 scalacOptions := Seq("-new-syntax")
 idePackagePrefix := Some("com.github.teinnsei.plugin.symbol")
