@@ -11,16 +11,16 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Symbol.xml"/>
-        <liveTemplateContext implementation="com.github.teinnsei.plugin.symbol.SymbolTemplate"/>
+        <liveTemplateContext contextId="SYMBOL" implementation="com.github.teinnsei.plugin.symbol.SymbolTemplate"/>
         <defaultLiveTemplates file="/liveTemplates/SymbolMath.xml"/>
-        <liveTemplateContext implementation="com.github.teinnsei.plugin.symbol.SymbolMathTemplate"/>
+        <liveTemplateContext contextId="SYMBOL_MATH" implementation="com.github.teinnsei.plugin.symbol.SymbolMathTemplate"/>
         <defaultLiveTemplates file="/liveTemplates/SymbolGreek.xml"/>
-        <liveTemplateContext implementation="com.github.teinnsei.plugin.symbol.SymbolGreekTemplate"/>
+        <liveTemplateContext contextId="SYMBOL_GREEK" implementation="com.github.teinnsei.plugin.symbol.SymbolGreekTemplate"/>
         <defaultLiveTemplates file="/liveTemplates/LoremIpsum.xml"/>
-        <liveTemplateContext implementation="com.github.teinnsei.plugin.symbol.LoremIpsumTemplate"/>
+        <liveTemplateContext contextId="LOREM_IPSUM" implementation="com.github.teinnsei.plugin.symbol.LoremIpsumTemplate"/>
         <liveTemplateMacro implementation="com.github.teinnsei.plugin.symbol.FakeMacro"/>
         <defaultLiveTemplates file="/liveTemplates/Fake.xml"/>
-        <liveTemplateContext implementation="com.github.teinnsei.plugin.symbol.FakeTemplate"/>
+        <liveTemplateContext contextId="FAKE" implementation="com.github.teinnsei.plugin.symbol.FakeTemplate"/>
     </extensions>
 
 </idea-plugin>
